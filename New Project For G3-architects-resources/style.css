@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+/*common style */
+.btn{
+    background-color:#FF900E;
+    font-size: 18px;
+    color: #FFFFFF;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+}
+
+header{
+    padding: 30px 80px;
+    background-color: rgba(255, 144, 14, 0.10);
+}
+
+nav{
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+
+.company-name{
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.menu{
+    display: flex;
+}
+
+.menu li{
+    padding: 0px 20px;
+    list-style: none;
+}
+
+.banner-content{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+banner{
+    padding: 50px 80px;
+}
+
+.banner-title{
+    font-size: 45px;
+}
+
+.banner-info{
+    color: #727272;
+    padding: 20px 0px;
+}
+
+.banner-image{
+    width: 100%;
+}
+.banner-image img{
+    padding-top: 50px;
+    width: 100%;
+}
+/* Our Features Styles */
+.our-features{
+    padding: 50px 80px;
+    background-color:#FFF;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+
+.features-content{
+    width: 50%;
+}
+.features-images{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    width: 50%;
+
+}
+
+.features-images img{
+    width: 100%
+}
+
+.features-title{
+    font-size: 50px;
+}
+
+.features-info{
+    color:#727272;
+    padding: 20px 0px;
+}
+
+.normal{
+    font-weight: 500;
+    color: #727272;
+}
+
+.features-color{
+    color:#FF900E;
+}
+
+/* Card Container  */
+.card-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 0px 50px;
+    padding: 50px 80px
+}
+.card-box{
+    text-align:center;
+    border-radius: 10px;
+    border: 2px solid #FF900E;
+    padding: 30px;
+}
+.some-facts{
+    text-align: left;
+    padding: 70px 80px;
+}
+.some-facts h1{
+    font-size: 40px;
+}
+.some-facts p{
+    color: #727272;
+    margin-top: 10px;
+    line-height: 20px;
+}
+
+    
